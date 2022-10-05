@@ -55,3 +55,8 @@ platanus scaffold -c out_contig.fa -IP1 *.trimmed -OP2 *.int_trimmed
 platanus gap_close -c out_scaffold.fa -IP1 *.trimmed -OP2 *.int_trimmed
 ```
 
+![Результаты](images/res.jpg "Результаты")
+
+![Before trim example](images/before_trim.jpg "Before trim example")
+
+![After trim example](images/after_trim.jpg "After trim example")
