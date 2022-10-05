@@ -57,12 +57,12 @@ platanus gap_close -c out_scaffold.fa -IP1 *.trimmed -OP2 *.int_trimmed
 # Результаты
 ![Результаты](images/res.jpg "Результаты")
 
-# До platanus trim
+## До platanus trim
 ![Before trim example](images/before_trim1.jpg "Before trim example")
 ![Before trim example](images/before_trim2.jpg "Before trim example")
 ![Before trim example](images/before_trim3.jpg "Before trim example")
 
-# После platanus trim
+## После platanus trim
 ![After trim example](images/after_trim1.jpg "After trim example")
 ![After trim example](images/after_trim2.jpg "After trim example")
 ![After trim example](images/after_trim3.jpg "After trim example")
