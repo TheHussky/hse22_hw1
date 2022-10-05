@@ -1,0 +1,5 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	sub-oilMP_S4_L001_R1_001	/home/apkrechetov/timmed_back/sub-oilMP_S4_L001_R1_001.fastq.int_trimmed_fastqc.zip
+FastQC	all_sections	sub-oil_R2	/home/apkrechetov/timmed_back/sub-oil_R2.fastq.trimmed_fastqc.zip
+FastQC	all_sections	sub-oilMP_S4_L001_R2_001	/home/apkrechetov/timmed_back/sub-oilMP_S4_L001_R2_001.fastq.int_trimmed_fastqc.zip
+FastQC	all_sections	sub-oil_R1	/home/apkrechetov/timmed_back/sub-oil_R1.fastq.trimmed_fastqc.zip
