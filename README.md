@@ -54,7 +54,7 @@ platanus assemble –f sub-oil*.trimmed
 platanus scaffold -c out_contig.fa -IP1 *.trimmed -OP2 *.int_trimmed
 platanus gap_close -c out_scaffold.fa -IP1 *.trimmed -OP2 *.int_trimmed
 ```
-# Результаты
+## Результаты
 ![Результаты](images/res.jpg "Результаты")
 
 ## До platanus trim
