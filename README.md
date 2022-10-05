@@ -30,6 +30,8 @@ Assemble contigs from paired-end trimmed: $(platanus assemble –f sub-oil*.trim
 
 Create scaffolds from contigs and trimmed: $(platanus scaffold -c out_contig.fa -IP1 *.trimmed -OP2 *.int_trimmed)
 
+Close gaps: $(platanus gap_close -c out_scaffold.fa -IP1 *.trimmed -OP2 *.int_trimmed)
+
 Scp from home 
 
 Remove everything: $(cd ~ && rm -fr .)
@@ -50,5 +52,6 @@ multiqc .
 cd .. && mkdir contigs && mv trim/*trimmed contigs/ && cd contigs
 platanus assemble –f sub-oil*.trimmed
 platanus scaffold -c out_contig.fa -IP1 *.trimmed -OP2 *.int_trimmed
+platanus gap_close -c out_scaffold.fa -IP1 *.trimmed -OP2 *.int_trimmed
 ```
 
