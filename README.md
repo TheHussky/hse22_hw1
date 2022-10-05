@@ -26,7 +26,7 @@ Create multiqc reports: $(multiqc .)
 
 Move needed files to another dir and switch there: $( cd .. && mkdir contigs && mv trim/*trimmed contigs/ && cd contigs)
 
-Assemble contigs from paired-end trimmed: $(platanus assemble –o Contig –f sub-oil*.trimmed )
+Assemble contigs from paired-end trimmed: $(platanus assemble –f sub-oil*.trimmed )
 
 Create scaffolds from contigs and trimmed: $(platanus scaffold -c out_contig.fa -IP1 *.trimmed -OP2 *.int_trimmed)
 
@@ -48,7 +48,7 @@ cd trim/
 fastqc *
 multiqc .
 cd .. && mkdir contigs && mv trim/*trimmed contigs/ && cd contigs
-platanus assemble –o Contig –f sub-oil*.trimmed
+platanus assemble –f sub-oil*.trimmed
 platanus scaffold -c out_contig.fa -IP1 *.trimmed -OP2 *.int_trimmed
 ```
 
